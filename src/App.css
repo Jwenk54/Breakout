@@ -1,0 +1,29 @@
+.page {
+  font-family: Arial, sans-serif;
+  padding: 24px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 18px;
+}
+
+.form {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1fr 1fr 2fr auto;
+  align-items: center;
+}
+
+input {
+  padding: 10px 12px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
